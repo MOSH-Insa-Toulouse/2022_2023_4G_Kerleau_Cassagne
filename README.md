@@ -138,7 +138,9 @@ Pour réaliser nos mesures nous avons utilisé une pièce imprimée en 3D compos
 
 ![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/banc-test.jpg)
 
-Cela nous permet d'avoir la valeur de la déformation avec la formule suivante
+Cela nous permet d'avoir la valeur de la déformation avec la formule suivante 
+
+𝜀 = 𝑒/2*r
 
 
 
