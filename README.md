@@ -56,7 +56,7 @@ Le code complet est disponible [ici](https://github.com/MOSH-Insa-Toulouse/2022_
 # 4.Python
 
 Notre binôme ne possédant pas de téléphone Android, il n'était pas possible pour nous de nous connecter au module bluetooth HC-05 et de créer une application pour gérer ce dernier. Nous avons décidé de laisser la possibilité de rajouter sur notre PCB le module bluetooth, cependant il n'est pas pris en charge par le code Arduino.
-Nous avons donc plutôt étable une communication série avec l'ordinateur à partir d'un programme Python disponible [ici](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Interface%20Python/graphe.py)
+Nous avons donc plutôt établie une communication série avec l'ordinateur à partir d'un programme Python disponible [ici](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Interface%20Python/graphe.py).
 
 ---
 # 5.KiCad
