@@ -63,7 +63,10 @@ Nous avons utilisé le logiciel KiCad dans sa version 6.0 afin de pouvoir réali
 
 5.1 Schématique 
 
-![Alt Text](Path_to_image)
+Sur KiCad nous mettons en place la schématique de notre circuit imprimé, cela nous permet de définir les connexions entre les différents composants
+
+
+![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/schema_aop.jpg)
 
 5.2 Empreintes
 
@@ -100,24 +103,32 @@ Pour vérifier le bon fonctionnement de notre montage, une étude sur le logicie
 
 ---
 # 8. Tests
+
 8.1 Objectifs
 
 
 
-8.2 banc de test
+8.2 Notre banc de test
 
-Pour réaliser nos mesures nous avons utilisé une pièce imprimée en 3D composée de plusieurs demi cercle, chacun ayant un rayon de courbure différent. Cela nous permet d'avoir la valeur de la déformation avec la formule suivante
+Pour réaliser nos mesures nous avons utilisé une pièce imprimée en 3D composée de plusieurs demi cercle, chacun ayant un rayon de courbure différent. 
 
-8.3 résultats 
+![Notre banc de test](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/banc%20test.HEIC)
+
+Cela nous permet d'avoir la valeur de la déformation avec la formule suivante
+
+
+
+8.3 Nos résultats 
 
 Suite à nos relevées de mesures, nous avons approximé la variation de la résistance relative en fonction de la déformation par une droite affine d'équation y = 38.79*x en tension et y = 54.90*x en déformation
 
-8.4 analyse 
+8.4 Analyse des résultats
 
 
-8.5 amélioration
+8.5 Voies d'améliorations
 
 Nous aurions pu utiliser différents types de crayon à papier pour voir l’influence du type de crayon sur le capteur mais nous n’avons pas eu le temps pour cela.
+
 
 ---
 # 9. Datasheet
