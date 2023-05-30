@@ -50,7 +50,7 @@ Pour la réalisation de ce programme nous nous sommes servis de la librairie « 
 
 3.2 Code 
 
-Le code complet est disponible ici. Il gère le calibrage du capteur, l’affichage de différentes données sur l’écran OLED, la gestion de choix sur l’OLED à l’aide d’un encodeur rotatoire et enfin un envoi des données en série pour les récupérer via Python
+Le code complet est disponible [ici](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Arduino_Capteur/Projet_Capteur.ino). Il gère le calibrage du capteur, l’affichage de différentes données sur l’écran OLED, la gestion de choix sur l’OLED à l’aide d’un encodeur rotatoire et enfin un envoi des données en série pour les récupérer via Python
 
 ---
 # 4.Python
