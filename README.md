@@ -68,38 +68,50 @@ Sur KiCad nous mettons en place la schématique de notre circuit imprimé, cela 
 
 ![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/schema_aop.jpg)
 
+![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/schema_er.jpg)
+
+![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/schema_oled.jpg)
+
+![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/schema_bt.jpg)
+
 5.2 Empreintes
 
-![Alt Text](Path_to_image)
-![Alt Text](Path_to_image)
-![Alt Text](Path_to_image)
-![Alt Text](Path_to_image)
-![Alt Text](Path_to_image)
+Les empreintes nous permettent de venir agencer les différents composants sur notre circuit imprimé, elles sont liées à nos schématiques ce qui nous permet de savoir quelles broches sont connectées ensemble.
 
-5.3 Composants
+![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/empreinte_ER.jpg)
+*Empreinte de l'encodeur rotatoire*
 
-![Alt Text](Path_to_image)
-![Alt Text](Path_to_image)
-![Alt Text](Path_to_image)
-![Alt Text](Path_to_image)
-![Alt Text](Path_to_image)
+![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/empreinte_oled.jpg)
+*Empreinte de l'OLED*
+
+![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/Empreinte_BT.jpg)
+*Empreinte du module bluetooth*
+
+5.3 L'agencement des composants
+
+Une fois les empreintes réalisées nous venons agencer les composants sur le circuit imprimé
+
+![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/PCB_KiCad.jpg)
 
 ---
 # 6. Shield 
 6.1 PCB
 
-![Alt Text](Path_to_image)
-
 Avec le logiciel KiCad, nous avons pu réalisé un typon. Ce typon a été tiré par Catherine Crouzet sur un film transparent afin que les pistes et les pastilles de notre PCB agissent comme un masque UV. Nous allons venir insolé notre circuit imprimé en le couvrant avec le typon. Par la suite nous avons révélé le circuit imprimé dans une cuve puis nous l'avons plongé dans du perchlorure de fer pour venir oxyder le cuivre.
+
+![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/Masque_UV.jpg)
+
 
 6.2 Perçage et soudure
 
 Enfin, nous avons à l'aide d'une perceuse trouer notre circuit imprimé pour pouvoir venir y souder nos différents composants.
 
+![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/Composant_soude.heic)
+
 ---
 # 7. Simulation sur LTspice 
 
-Pour vérifier le bon fonctionnement de notre montage, une étude sur le logiciel LTspice XVII (17.0.36.0) a été menée au préalable.
+Pour vérifier le bon fonctionnement de notre montage, une [étude](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Simulation_LTspice.pdf) sur le logiciel LTspice XVII (17.0.36.0) a été menée au préalable.
 
 ---
 # 8. Tests
@@ -112,7 +124,7 @@ Pour vérifier le bon fonctionnement de notre montage, une étude sur le logicie
 
 Pour réaliser nos mesures nous avons utilisé une pièce imprimée en 3D composée de plusieurs demi cercle, chacun ayant un rayon de courbure différent. 
 
-![Notre banc de test](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/banc%20test.HEIC)
+![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/banc%20test.HEIC)
 
 Cela nous permet d'avoir la valeur de la déformation avec la formule suivante
 
@@ -120,10 +132,17 @@ Cela nous permet d'avoir la valeur de la déformation avec la formule suivante
 
 8.3 Nos résultats 
 
-Suite à nos relevées de mesures, nous avons approximé la variation de la résistance relative en fonction de la déformation par une droite affine d'équation y = 38.79*x en tension et y = 54.90*x en déformation
+Suite à nos relevées de mesures, nous avons approximé la variation de la résistance relative en fonction de la déformation par une droite affine d'équation y = 38.79x en tension et y = 54.90x en déformation
 
 8.4 Analyse des résultats
 
+![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/eco_cup.heic)
+
+Pour vérifier la cohérence de nos résultats, nous avons décidé de déterminer le volume d'un écocup à l'aide de notre capteur de déformation. Pour cela nous avons mesuré la valeur de la resistance relative de notre capteur en le déformant selon la courbure du haut et la courbure du bas. A partir de l'équation défini dans la datasheet nous avons pu remonter à la déformation correspondante et donc au rayon de courbure. A partir de ce rayon nous pouvons définir le volume de deux cylindres (un qui à pour base le bas de l'écocup, et un le haut de l'ecocup). En faisant la moyenne de ceux deux cylindres nous retombons sur le volume approximatif de l'écocup.
+
+![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/Tableau_%C3%A9cocup.jpg)
+
+Nous retombons sur un volume d'environ 31cL ce qui correspond à notre écocup.
 
 8.5 Voies d'améliorations
 
@@ -139,5 +158,7 @@ La datasheet de notre capteur est disponible [ici](https://github.com/MOSH-Insa-
 # 10. Contacts 
 
 Pour toutes questions ou remarques concernant ce projet, n'hésitez pas à nous contacter : 
+
 Lucie Kerleau : lkerleau@insa-toulouse.fr
+
 Maixent Cassagne : mcassagn@insa-toulouse.fr
