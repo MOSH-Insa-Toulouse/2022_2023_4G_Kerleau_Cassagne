@@ -78,26 +78,36 @@ Sur KiCad nous mettons en place la schématique de notre circuit imprimé, cela 
 
 Les empreintes nous permettent de venir agencer les différents composants sur notre circuit imprimé, elles sont liées à nos schématiques ce qui nous permet de savoir quelles broches sont connectées ensemble.
 
+
 ![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/empreinte_ER.jpg)
+
 *Empreinte de l'encodeur rotatoire*
 
+
 ![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/empreinte_oled.jpg)
+
 *Empreinte de l'OLED*
 
+
 ![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/Empreinte_BT.jpg)
+
 *Empreinte du module bluetooth*
+
 
 5.3 L'agencement des composants
 
 Une fois les empreintes réalisées nous venons agencer les composants sur le circuit imprimé
 
+
 ![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/PCB_KiCad.jpg)
 
 ---
 # 6. Shield 
+
 6.1 PCB
 
 Avec le logiciel KiCad, nous avons pu réalisé un typon. Ce typon a été tiré par Catherine Crouzet sur un film transparent afin que les pistes et les pastilles de notre PCB agissent comme un masque UV. Nous allons venir insolé notre circuit imprimé en le couvrant avec le typon. Par la suite nous avons révélé le circuit imprimé dans une cuve puis nous l'avons plongé dans du perchlorure de fer pour venir oxyder le cuivre.
+
 
 ![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/Masque_UV.jpg)
 
@@ -106,7 +116,7 @@ Avec le logiciel KiCad, nous avons pu réalisé un typon. Ce typon a été tiré
 
 Enfin, nous avons à l'aide d'une perceuse trouer notre circuit imprimé pour pouvoir venir y souder nos différents composants.
 
-![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/Composant_soude.heic)
+![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/Composant_soude.jpg)
 
 ---
 # 7. Simulation sur LTspice 
@@ -124,7 +134,7 @@ Pour vérifier le bon fonctionnement de notre montage, une [étude](https://gith
 
 Pour réaliser nos mesures nous avons utilisé une pièce imprimée en 3D composée de plusieurs demi cercle, chacun ayant un rayon de courbure différent. 
 
-![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/banc%20test.HEIC)
+![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/banc%20test.jpg)
 
 Cela nous permet d'avoir la valeur de la déformation avec la formule suivante
 
@@ -136,7 +146,7 @@ Suite à nos relevées de mesures, nous avons approximé la variation de la rés
 
 8.4 Analyse des résultats
 
-![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/eco_cup.heic)
+![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/eco_cup.jpg)
 
 Pour vérifier la cohérence de nos résultats, nous avons décidé de déterminer le volume d'un écocup à l'aide de notre capteur de déformation. Pour cela nous avons mesuré la valeur de la resistance relative de notre capteur en le déformant selon la courbure du haut et la courbure du bas. A partir de l'équation défini dans la datasheet nous avons pu remonter à la déformation correspondante et donc au rayon de courbure. A partir de ce rayon nous pouvons définir le volume de deux cylindres (un qui à pour base le bas de l'écocup, et un le haut de l'ecocup). En faisant la moyenne de ceux deux cylindres nous retombons sur le volume approximatif de l'écocup.
 
