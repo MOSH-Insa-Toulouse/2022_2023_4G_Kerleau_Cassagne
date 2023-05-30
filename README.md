@@ -114,7 +114,7 @@ Avec le logiciel KiCad, nous avons pu réalisé un typon. Ce typon a été tiré
 
 6.2 Perçage et soudure
 
-Enfin, nous avons à l'aide d'une perceuse trouer notre circuit imprimé pour pouvoir venir y souder nos différents composants.
+Enfin, nous avons à l'aide d'une perceuse troué notre circuit imprimé pour pouvoir venir y souder nos différents composants.
 
 ![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/Composant_soude.jpg)
 
@@ -128,7 +128,7 @@ Pour vérifier le bon fonctionnement de notre montage, une [étude](https://gith
 
 8.1 Objectifs
 
-
+Le but de notre test est de définir les caractéristiques de notre capteur. A partir de différentes mesures nous allons pouvoir déterminer la loi que suit notre capteur.
 
 8.2 Notre banc de test
 
