@@ -134,7 +134,7 @@ Pour vérifier le bon fonctionnement de notre montage, une [étude](https://gith
 
 Pour réaliser nos mesures nous avons utilisé une pièce imprimée en 3D composée de plusieurs demi cercle, chacun ayant un rayon de courbure différent. 
 
-![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/banc%20test.jpg)
+![Alt Text](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Images/banc-test.jpg)
 
 Cela nous permet d'avoir la valeur de la déformation avec la formule suivante
 
