@@ -33,11 +33,11 @@ Ne disposant pas d’appareil Android mais ayant quand même pour objectif de tr
 # 2. Matériel nécessaire
 
 Pour utiliser le capteur graphite, sont nécessaires : 
-Une arduino 
-Un capteur graphite
-2 pinces crocodile 
-(matériel AOP) 
-Logiciel : Arduino, Python 
+- Une carte Arduino Uno
+- Un capteur graphite
+- Deux pinces crocodiles 
+- Pour l'AOP : un LTC1050, des résistances , des capacités 
+- Logiciel : Arduino, Python 
 
 ---
 # 3.Arduino 
@@ -63,14 +63,29 @@ Nous avons utilisé le logiciel KiCad dans sa version 6.0 afin de pouvoir réali
 
 5.1 Schématique 
 
+![Alt Text](Path_to_image)
+
 5.2 Empreintes
 
+![Alt Text](Path_to_image)
+![Alt Text](Path_to_image)
+![Alt Text](Path_to_image)
+![Alt Text](Path_to_image)
+![Alt Text](Path_to_image)
 
 5.3 Composants
+
+![Alt Text](Path_to_image)
+![Alt Text](Path_to_image)
+![Alt Text](Path_to_image)
+![Alt Text](Path_to_image)
+![Alt Text](Path_to_image)
 
 ---
 # 6. Shield 
 6.1 PCB
+
+![Alt Text](Path_to_image)
 
 Avec le logiciel KiCad, nous avons pu réalisé un typon. Ce typon a été tiré par Catherine Crouzet sur un film transparent afin que les pistes et les pastilles de notre PCB agissent comme un masque UV. Nous allons venir insolé notre circuit imprimé en le couvrant avec le typon. Par la suite nous avons révélé le circuit imprimé dans une cuve puis nous l'avons plongé dans du perchlorure de fer pour venir oxyder le cuivre.
 
@@ -107,7 +122,7 @@ Nous aurions pu utiliser différents types de crayon à papier pour voir l’inf
 ---
 # 9. Datasheet
 
-La datasheet de notre capteur est disponible ici
+La datasheet de notre capteur est disponible [ici](https://github.com/MOSH-Insa-Toulouse/2022_2023_4G_Kerleau_Cassagne/blob/main/Datasheet_Kerleau_Cassagne_v1.pdf)
 
 ---
 # 10. Contacts 
